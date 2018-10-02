@@ -126,6 +126,9 @@ function sendOrder(){
 		modalOn.style.display = 'none';
 		document.getElementById('qua-sum').innerText = '0';
 		document.getElementById('sum-sum').innerText = '0';
+		document.getElementsByClassName('select-control')[0].selectedIndex = 0;
+		document.getElementsByClassName('select-control')[1].selectedIndex = 0;
+		applyFilter();
 	}
 }
 
