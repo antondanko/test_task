@@ -129,6 +129,8 @@ function sendOrder(){
 		document.getElementsByClassName('select-control')[0].selectedIndex = 0;
 		document.getElementsByClassName('select-control')[1].selectedIndex = 0;
 		applyFilter();
+		quaArr = new Array(productBoxBtn.length).fill(0);
+		priceArr = new Array(productBoxBtn.length).fill(0);
 	}
 }
 
